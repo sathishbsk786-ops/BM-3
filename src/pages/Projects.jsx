@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Nav } from '../components.js'
+import { Nav } from '../components.jsx'
 import { motion } from 'framer-motion'
 
 const residential = [
