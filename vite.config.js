@@ -1,10 +1,11 @@
-import { defineConfig(esbuild: {
-  loader: 'jsx',
-  include: /src\/.*\.js$/,
-},
-)} from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-});
+  build: {
+    // Optional custom esbuild settings
+    target: 'esnext',
+  },
+})
