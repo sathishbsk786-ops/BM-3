@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Nav } from '../components.js'
+import { Nav } from '../components.jsx'
 
 export default function Consultation(){
   const [form, setForm] = useState({name:'',email:'',message:''})
