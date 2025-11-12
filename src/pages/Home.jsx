@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Nav } from '../components.js'
+import { Nav } from '../components.jsx'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
